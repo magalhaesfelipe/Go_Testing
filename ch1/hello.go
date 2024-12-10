@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hello, %s!\n", "WORLD")
+	var example int = 10_234
+
+	fmt.Println(example)
+
+	fmt.Printf("Hello, %s!!", "Felipe")
+
 }
