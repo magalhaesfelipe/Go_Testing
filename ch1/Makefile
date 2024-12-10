@@ -6,4 +6,6 @@ fmt:
 vet: fmt
 	go vet ./...
 build: vet
-	go build	
+	go build
+clean:
+	go clean
