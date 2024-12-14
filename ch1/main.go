@@ -1,27 +1,57 @@
 package main
 
-import (
-	"fmt"
+import "ch1/goTypes"
+
+const myNum int64 = 10
+
+// This is a constant block, defining multiple constants
+const (
+	idKey   = "id"
+	nameKey = "name"
 )
 
-// "ch1/goTypes"
+const sum = 20 * 10
+const whatever string = "whatever"
 
 func main() {
-	var name = "Felipe"
-	var secondName = "Julia"
+/*
+	const phrase = "hello"
 
-	name = "Kalieu"
-	secondName = secondName + " Zen"
+	fmt.Println(myNum)
+	fmt.Println(phrase)
 
-	const firstInitial rune = 'F'
-	const lastInitial float32 = 'O'
 
-	fmt.Println(secondName, firstInitial, lastInitial)
 
-	if (name > secondName) {
-		fmt.Println("Name is greater than second name")
-	} else {
-		fmt.Println("Second name is greater than name")
-	}
+	//myNum = myNum + 1 // It'll not compile
+	//phrase = "Hi, how are you going" 
+
+	fmt.Println(myNum)
+	fmt.Println(phrase)
+	fmt.Println(whatever)
+	fmt.Println(sum)
+*/
+
+
+	goTypes.UsingConst()
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
