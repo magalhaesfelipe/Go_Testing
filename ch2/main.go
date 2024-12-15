@@ -1,6 +1,6 @@
 package main
 
-import "ch1/exercises"
+import "ch2/exercises"
 
 func main() {
 	exercises.Ex3()
