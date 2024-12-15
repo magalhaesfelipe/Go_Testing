@@ -1,14 +1,7 @@
 package main
 
-import (
-	"ch1/goTypes"
-	"fmt"
-)
+import "ch1/exercises"
 
 func main() {
-	fmt.Println(goTypes.Movie)
-	
-	goTypes.PrintSomething()
-
-	fmt.Println("Printing something")
+	exercises.Ex3()
 }
