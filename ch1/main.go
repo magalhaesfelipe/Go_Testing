@@ -1,57 +1,14 @@
 package main
 
-import "ch1/goTypes"
-
-const myNum int64 = 10
-
-// This is a constant block, defining multiple constants
-const (
-	idKey   = "id"
-	nameKey = "name"
+import (
+	"ch1/goTypes"
+	"fmt"
 )
 
-const sum = 20 * 10
-const whatever string = "whatever"
-
 func main() {
-/*
-	const phrase = "hello"
+	fmt.Println(goTypes.Movie)
+	
+	goTypes.PrintSomething()
 
-	fmt.Println(myNum)
-	fmt.Println(phrase)
-
-
-
-	//myNum = myNum + 1 // It'll not compile
-	//phrase = "Hi, how are you going" 
-
-	fmt.Println(myNum)
-	fmt.Println(phrase)
-	fmt.Println(whatever)
-	fmt.Println(sum)
-*/
-
-
-	goTypes.UsingConst()
-
-
+	fmt.Println("Printing something")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
